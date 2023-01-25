@@ -9,7 +9,7 @@ public enum Vehicles {
     BENTLEY(2019,""),
     VOLKSWAGEN(2020,"");
 
-    private int year;
+    private final int year;
     private String color;
 
     Vehicles(int year, String color) {
