@@ -10,25 +10,20 @@ public class Main {
         ArrayList<Integer> numbers = new ArrayList<>();
         System.out.println("Введіть сім елементів масиву");
         Scanner input = new Scanner(System.in);
-        int n ;
+        int n;
         int j = 0;
-        while(j<7){
+        while (j < 7) {
             n = input.nextInt();
             numbers.add(n);
             j++;
         }
-        System.out.println("Введений масив");
-        for (int i : numbers) {
-            System.out.print(i + " ");
-        }
-        System.out.println(" ");
-        int a =  numbers.get(0)*numbers.get(6);
-        numbers.set(0,a);
-        Collections.sort(numbers);
-        System.out.println("Відсортований масив");
-        for (int i : numbers) {
-            System.out.print(i + " ");
-        }
+        System.out.println("Введений масив:");
+        System.out.println(numbers);
 
+        int a = numbers.get(0) * numbers.get(6);
+        numbers.set(0, a);
+        Collections.sort(numbers);
+        System.out.println("Відсортований масив:");
+        System.out.println(numbers);
     }
 }
