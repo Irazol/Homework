@@ -1,4 +1,6 @@
-package Lesson16;
+package Lesson16.Option1;
+
+import Lesson16.Option1.Calculator;
 
 import java.util.Scanner;
 
@@ -16,14 +18,14 @@ public class DemoCalculator {
                 System.out.println(calculator.subtraction((int) a, (int) b));
                 System.out.println(calculator.multiplication((int) a, (int) b));
                 System.out.println(calculator.division((int) a, (int) b));
-                System.out.println(calculator.exponentiates((int) a, (int) b));
+                System.out.println(calculator.exponentiation((int) a, (int) b));
             } else {
                 Calculator<Double> calculator2 = new Calculator<>();
                 System.out.println(calculator2.addition(a, b));
                 System.out.println(calculator2.subtraction(a, b));
                 System.out.println(calculator2.multiplication(a, b));
                 System.out.println(calculator2.division(a, b));
-                System.out.println(calculator2.exponentiates(a, b));
+                System.out.println(calculator2.exponentiation(a, b));
             }
         }
         catch (Exception e){

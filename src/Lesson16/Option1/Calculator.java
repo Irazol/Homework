@@ -1,4 +1,4 @@
-package Lesson16;
+package Lesson16.Option1;
 
 public class Calculator<Sometipe> {
 
@@ -60,7 +60,7 @@ public class Calculator<Sometipe> {
         return (Sometipe) (Object) 0;
     }
 
-    public Sometipe exponentiates (Sometipe a, Sometipe b) {
+    public Sometipe exponentiation (Sometipe a, Sometipe b) {
 
         if (a.getClass().equals(Integer.class) && b.getClass().equals(Integer.class)  ) {
             System.out.print(a+" ^ "+b + " = ");
