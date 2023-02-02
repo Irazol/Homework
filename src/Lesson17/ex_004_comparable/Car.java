@@ -35,7 +35,7 @@ public class Car implements Comparable, Comparator {
 
     @Override
     public int compare(Object o1, Object o2) {
-        if (((Car)o1).model.equals(((Car)o2).model) == true){
+        if (((Car)o1).model.equals(((Car)o2).model)){
             return ((Car)o1).color.compareTo(((Car)o2).color);
         }
         else

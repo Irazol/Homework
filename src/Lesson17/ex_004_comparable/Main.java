@@ -10,6 +10,7 @@ public class Main {
         Car c3 = new Car(185, 10000, "Mercedes", "White");
         Car c4 = new Car(200, 15000, "Porsche", "Green");
         Car c5 = new Car(180, 12000, "Ford", "Pink");
+
         Car[] c = {c1, c2, c3, c4, c5};
 
         Arrays.sort(c);
