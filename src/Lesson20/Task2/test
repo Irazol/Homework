@@ -1,4 +1,0 @@
-  Prints formatted representations of objects to a text-output stream.
- This class implements all of the print methods found in PrintStream. 
- It does not contain methods for writing raw bytes, for which a program
- should use unencoded byte streams.

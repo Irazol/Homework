@@ -12,8 +12,7 @@ public class Main {
             numbs.offer(i);
         }
 
-        FileWriter write = new FileWriter(file);
-        PrintWriter print = new PrintWriter(write );
+        PrintWriter print = new PrintWriter(file);
 
         print.println(numbs);
         print .flush();
