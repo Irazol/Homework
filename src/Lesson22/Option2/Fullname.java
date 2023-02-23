@@ -3,7 +3,7 @@ package Lesson22.Option2;
 
 import java.io.Serializable;
 
-public class Fullname implements Serializable {
+public class Fullname {
     String first_name;
     String second_name;
 
